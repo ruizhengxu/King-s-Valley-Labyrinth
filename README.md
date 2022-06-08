@@ -23,6 +23,8 @@ Tout d'abord vous devez lancer l'arbitre qui ouvrira un serveur pour échanger a
 
 ```java -cp KVL_1.1.jar games.kingsvalley.KVDuel -p 4536 -g```
 
+![Terminal Message](terminal.png)
+
 **NB :**
 - le code de KVL_1.1.jar marche avec la version 11 de java,
 - l'option -g, facultative, correspond à l'utilisation de l'interface graphique (voir plus bas).

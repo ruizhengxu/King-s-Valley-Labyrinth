@@ -28,6 +28,7 @@ Tout d'abord vous devez lancer l'arbitre qui ouvrira un serveur pour échanger a
 - l'option -g, facultative, correspond à l'utilisation de l'interface graphique (voir plus bas).
 
 **2. Lancer un joueur déjà implémenté**
+
 Dans les 15 s qui suivent le démarrage de l'arbitre, vous devez lancer indépendamment deux joueurs. L'archive KVL_1.1.jar contient, en plus de l'arbitre, le code pour différents types de joueurs avec lesquels vous pourrez expérimenter.
 
 Commande pour lancer un joueur aléatoire déjà implémenté :
@@ -43,6 +44,7 @@ Commande pour lancer un joueur humain déjà implémenté (les coups sont à ent
 ```java -cp KVL_1.1.jar iialib.games.contest.Client -p 4536 -s localhost -c games.kingsvalley.KVHumanChallenger```
 
 **3. Lancer votre propre joueur**
+
 Pour pouvoir tester votre propre joueur, il vous faut compiler le code de votre projet dans une archive JAR, par exemple PRXX_KVL_player.jar. La commande pour le lancer sera alors de la forme :
 
 ```java -cp PRXX_KVL_player.jar:commons-cli-1.4.jar path.to.Client -p 4536 -s localhost -c path.to.MyChallenger```
@@ -59,6 +61,7 @@ Si vous souhaitez réaliser un essai rapidement avec votre projet, vous pouvez �
 - l'archive commons-cli-1.4.jar correspond à un code tiers pour lire les paramètres dans la commande, il vous suffit de la placer dans le même dossier que votre archive PRXX_KVL_player.jar.
 
 **4. Interface graphique**
+
 Voici un aperçu de ce que vous devriez voir en utilisant l'option -g :
 
 ![Plateau](mkimg/plateau.png)
